@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<body>
+<input type="color" onchange="pick(this.value)">
+<p id="text">Hello</p>
+
+<script>
+function pick(c){
+  text.style.color=c;
+}
+</script>
+</body>
+</html>
